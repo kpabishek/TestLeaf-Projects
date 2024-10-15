@@ -7,7 +7,7 @@ public class LibraryManagement {
 
 			
 			Library objlib = new Library();
-			String title = objlib.addBook("Harry Potter");
+			String title = objlib.addBook("Wonder women");
 			System.out.println("Book Title: "+title);
 			objlib.issueBook();
 		}
